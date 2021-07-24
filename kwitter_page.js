@@ -64,5 +64,5 @@ function updatelike(message_id){
 function logout(){
       localStorage.removeItem("roomname");
       localStorage.removeItem("username");
-      window.location.replace="index.html";
+      window.location="index.html";
 }
